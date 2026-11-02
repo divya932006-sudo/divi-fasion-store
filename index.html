@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Divi Fashion Store</title>
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>DIVI FASHION 👗</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Welcome to Women's Fashion</h2>
+    <p>Discover Your Beautiful Style</p>
+    <button>Shop Now</button>
+</section>
+
+<h2 class="heading">Our Collections</h2>
+
+<div class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500">
+        <h3>Beautiful Pink Dress</h3>
+        <p>₹500</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500">
+        <h3>Party Wear Dress</h3>
+        <p>₹400</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=500">
+        <h3>Traditional Dress</h3>
+        <p>₹300</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Divi Fashion Store</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divi Fashion Store</title>
+    
+    <!-- Internal CSS (Style tag-ku ulla ezhudhurathu) -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5f7;
+        }
+
+        header {
+            background-color: #e75480;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 80px;
+            background-color: #ffd6e0;
+        }
+
+        .banner h2 {
+            font-size: 35px;
+        }
+
+        button {
+            background-color: #e75480;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .heading {
+            text-align: center;
+            margin: 30px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px 0;
+            font-size: 18px;
+        }
+
+        .card p {
+            color: #6d2856;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #a0108a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>DIVI FASHION 👗</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Welcome to Women's Fashion</h2>
+    <p>Discover Your Beautiful Style</p>
+    <button>Shop Now</button>
+</section>
+
+<h2 class="heading">Our Collections</h2>
+
+<div class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500" alt="Dress">
+        <h3>Beautiful Pink Dress</h3>
+        <p>₹999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500" alt="Dress">
+        <h3>Party Wear Dress</h3>
+        <p>₹1499</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=500" alt="Dress">
+        <h3>Traditional Dress</h3>
+        <p>₹1299</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Divi Fashion Store</p>
+</footer>
+
+</body>
+</html>
